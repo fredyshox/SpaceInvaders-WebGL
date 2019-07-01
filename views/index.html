@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space invaders</title>
+  <style>
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #glcanvas {
+      border-radius: 8px;
+      border-color: #ffffff;
+      border-width: 4px;
+      border-style: solid;
+    }
+
+    h1, p {
+      color: #ffffff;
+      text-align: center;
+      font-family: "Verdana", Geneva, sans-serif;
+    }
+  </style>
+</head>
+<body style="background-color: #000000;">
+  <p id="score">0 points</p>
+  <canvas class="center" id="glcanvas" width="1024" height="768">
+    This browser does not support canvas element
+  </canvas>
+  <h1>Space Invaders</h1>
+  <div style="text-align: center;">
+    <button id="newGameBtn">New Game</button>
+  </div>
+  <script type="text/javascript" src="./app.bundle.js"></script>
+</body>
+</html>
